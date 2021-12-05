@@ -1,0 +1,2 @@
+const NUMBERS_TO_DISPLAY=20,button=document.querySelector(".button"),tableEven=document.querySelector(".numbers__even"),tableOdd=document.querySelector(".numbers__odd"),sortNumber=t=>t.slice().sort(((t,e)=>t-e));button.addEventListener("click",(function(){const t=[],e=[];for(let o=0;o<20;o++){const o=Math.floor(100*Math.random())+1;o%2==0?t.push(o):e.push(o)}const o=sortNumber(t),n=sortNumber(e);tableEven.textContent=o.join(" "),tableOdd.textContent=n.join(" ")}));
+//# sourceMappingURL=index.df2441ff.js.map
